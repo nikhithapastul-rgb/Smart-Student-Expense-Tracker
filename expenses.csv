@@ -1,0 +1,6 @@
+@'
+Type,Amount,Category,Date,Description
+Expense,150,Food,2026-11-10,Lunch
+Expense,150,Food,2026-11-10,Lunch
+Income,5000,Pocket Money,2026-11-10,monthly allowance
+'@ | Set-Content -Encoding utf8 .\data\expenses.csv
